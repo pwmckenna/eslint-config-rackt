@@ -8,9 +8,16 @@ All configs should be defined in index.js rather than .eslintrc.
 
 # Usage
 
+```bs
+npm install --save-dev https://github.com/rackt/eslint-config-rackt.git
+```
+
 .eslintrc
 ```json
 {
     "extends": "eslint-config-rackt"
 }
 ```
+
+# TODO
+Publish to npm so consumers' npm install looks like `npm install --save-dev eslint-config-rack`.
